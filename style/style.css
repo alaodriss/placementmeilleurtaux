@@ -13,7 +13,7 @@
 }
 
 
-body{   font-family: "poppins"; width:100%;margin:auto; max-width:2000px}
+body{background: #eff3ff;  font-family: 'Poppins', sans-serif; width:100%;margin:auto; max-width:2000px}
 
 
 .number{
@@ -60,3 +60,115 @@ body{   font-family: "poppins"; width:100%;margin:auto; max-width:2000px}
     color: #4d4d4d;
     background: #eff3ff;
 }
+
+
+strong{
+    font-size: 20px;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 22px;
+    padding-left: -3px;
+    margin-right: 9px;
+}
+
+
+
+
+.titre-pp{
+    margin-left: 2%;
+    color: #0584ca;
+}
+
+.sous-titre{
+    margin-left: 2%;
+}
+
+
+.container-pq{
+    display: flex;
+}
+
+.block-pq {
+    background-color: #FFF;
+    border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    width: 57%;
+  }
+  
+  .block-pq > div {
+    display: flex;
+    margin-bottom: 20px; /* Add margin for spacing between divs */
+    text-align: center; /* Center content within each div */
+  }
+  
+  /* Apply additional styles to img, h2, and p if needed */
+  .block-pq img {
+    max-width: 100%;
+  }
+  .block-text{
+    text-align: initial;
+    margin-left: 2%;
+  }
+  .block-pq p {
+    font-size: 13px;
+    margin: 0;
+  }
+  
+
+  .avis {
+    margin: 20px;
+  }
+
+  .block-avis {
+    background-color: #FFF; /* Background color */
+    border-radius: 5px; /* Border radius for rounded corners */
+    padding: 20px; /* Padding for spacing */
+    width: 28em;
+    height: 604px;
+  }
+  
+  .block-avis ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  .block-avis li {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .block-avis li span {
+    font-weight: bold; /* Make the numbers bold */
+  }
+  
+
+  
+
+  swiper-container {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 36%;
+  }
+
+

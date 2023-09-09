@@ -48,15 +48,17 @@
     text-decoration: underline;
 }
 
+
+
 .top-section{
     position: relative;
-}
-
-#backgournd-image{
+    background-image: url('/asstes/images/img1.png'); /* Remplacez 'chemin/vers/mon-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la section */
+    background-position: center; /* Centre l'image horizontalement et verticalement */
+    height: 620px; /* Définissez la hauteur de la section selon vos besoins */
+    color: white; /* Couleur du texte pour une meilleure lisibilité */
     width: 100%;
-    height: 100%;
     object-fit: cover;
-
 }
 
 .content-top{
@@ -66,3 +68,358 @@
     left: 2%;
     color: white;
 }
+
+.text-top{
+    
+    color: #0584ca;
+    font-family: poppins;
+    font-weight: 700;
+    background: #fff;
+    border-radius: 28px;
+    box-shadow: 0 0 10px #00000026;
+    padding: 10px 56px;
+    font-size: 18px;
+}
+
+
+h1{
+    color: #fff;
+    font-size: 32px;
+    line-height: 34px;
+    font-family: poppins;
+    font-weight: 700;
+    padding: 38px 0;
+}
+
+.list-element>ul>li{
+    padding: 10px 0;
+}
+
+
+.btn-orange-content{
+
+    background: -webkit-linear-gradient(right,#FF6713,#FF9B00);
+    background: -moz-linear-gradient(right,#FF6713,#FF9B00);
+    background: linear-gradient(to left,#FF6713,#FF9B00);
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 15px 44px;
+    font-size: 21px;
+    border-radius: 18px;
+    margin: 40px 0;
+    font-weight: 700;
+}
+
+.btn-blanc-content{
+    background: -webkit-linear-gradient(270deg,#0584CA,#2BAFF8);
+    background: -moz-linear-gradient(270deg,#0584CA,#2BAFF8);
+    background: linear-gradient(270deg,#0584CA,#2BAFF8);
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 15px 44px;
+    font-size: 21px;
+    border-radius: 18px;
+    margin: 40px 0;
+    font-weight: 700;
+}
+
+/* Add CSS for the product list container */
+.product-list-container {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0 30px;
+    position: absolute;
+    top: 93%;
+  }
+  
+  /* Add CSS for each product item */
+  .product-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  /* Style the product item image */
+  .product-item img {
+    max-width: 45px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Style the product item text and description */
+  .product-item h2,p {
+    color: #666;
+  }
+  
+   
+  /* Section 2 */
+  .container-investir{
+    position: relative;
+  }
+
+  .content-text{
+    position: absolute;
+    top: 0;
+  }
+
+
+
+
+
+  /* Style pour le conteneur principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:66px 20px 16px 20px
+}
+
+/* Style pour le conteneur "container-investir" */
+
+/* Style pour l'image à l'intérieur de "container-investir" */
+.container-investir img {
+    max-width: 37em;
+    height: auto;
+}
+
+/* Style pour le texte à l'intérieur de "container-investir" */
+.content-text {
+    text-align: center;
+}
+
+/* Style pour le titre h2 */
+.content-text h2 {
+  
+    font-size: 22px;
+    color: #0584ca;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 26px;
+    padding-top: 10px;
+}
+
+.content-text span {
+    background-color: #0584ca;
+    color: #fff;
+    padding: 7px;
+    font-weight: 900;
+}
+.content-text >.sous-text{
+    color: #0584ca;
+    font-weight: unset;
+    padding-top: 10px;
+}
+/* Style pour le bouton */
+.btn-decouvre {
+    background-color: #007bff; /* Couleur de fond de votre choix */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.content-text >p{
+    font-size: 12px;
+}
+
+
+
+/* Style pour le conteneur "container-news" */
+.container-news {
+    display: flex;
+    background: #fff;
+    width: 600px;
+    height: 207px;
+    border-radius: 5px;
+}
+
+/* Style pour l'image à l'intérieur de "container-news" */
+.container-news>img {
+    max-width: 13em;
+    border-radius: 5px;
+    height: auto;
+}
+
+/* Style pour le texte à l'intérieur de "container-news" */
+.content-text-news {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style pour le titre h2 dans "container-news" */
+.content-text-news h2 {
+    font-size: 18px;
+    margin: 6px 0px;
+    text-align: left;
+}
+
+/* Style pour le paragraphe p dans "container-news" */
+.content-text-news p {
+    font-size: 14px;
+    margin: 6px 0px;
+    text-align: left;
+}
+
+
+/* Style pour le formulaire */
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style pour les champs d'entrée du formulaire */
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour le bouton de soumission du formulaire */
+input[type="submit"] {
+    background-color: #007bff; /* Couleur de fond de votre choix */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+.app {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border-radius: 2px;
+}
+
+.container-app {
+    flex: 1;
+    padding: 20px;
+}
+
+.container-app-infos {
+    text-align: left;
+}
+
+.container-app-infos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container-app-infos p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn-telecharge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-app-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-app-img img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.container-app-img .btn-telecharge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* 7 agance  */
+
+.container-agance-img img {
+    max-width: 100%;
+    height: auto;
+    max-height: 185px;
+}
+
+
+
+/* projets  */
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+  
+  .flex-item {
+    flex: 1;
+    margin-left: 1%;
+    text-align: center; 
+    position: relative;
+  }
+  
+
+  .flex-item img {
+    max-width: 96%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 175px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .flex-item:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
+}
+
+  
+  .flex-item p {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    font-size: 13px;
+    color: white;
+  }
+
+  .projets{
+    margin: 70px 0;
+  }
+  
+
+  .partenaires{
+    display: flex;
+  }
+
+  .container-expertise-infos > p{
+    margin-left: 2%;
+    font-size: 12px;
+  }

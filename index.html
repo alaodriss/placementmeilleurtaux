@@ -2,12 +2,25 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Menu avec Top Bar</title>
+    <title>Meilleurtaux Placement</title>
     <link rel="stylesheet" type="text/css" href="./style/style.css">
     <link rel="stylesheet" type="text/css" href="./style/index.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e9832d2dd1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-       <!-- Header Avec Menu -->
+    <!-- Header Avec Menu -->
     <header class="header">
         <div class="top-bar"> 
             <div class="logo">
@@ -19,7 +32,7 @@
                 <div class="buttons">
                     <button class="btn-orange">Souscrire en ligne</button>
                     <button class="btn-blanc">Accès client</button>
-            </div>
+                </div>
             </div>
         </div>
     
@@ -36,27 +49,259 @@
             </nav>
         </div>
      </header>
-        <!-- Section page  -->
+    <!-- Section page  -->
      <section class="top-section">
-        <img id="backgournd-image" src="./asstes/images/img1.png" alt="backgournd-image">
-        <div class="content-top">
+    <!-- <img id="backgournd-image" src="./asstes/images/img1.png" alt="backgournd-image"> -->
+    <div class="content-top">
                 <span class="text-top">Les meilleurs placements pour votre épargne</span>
                 <h1>Votre épargne mérite le meilleur !</h1>
                 <div class="list-element">
                     <ul>
-                        <li>0 € de frais d’entrée /arbitrage</li>
-                        <li>Une gestion par l'assureur sur les conseils de Marc Fiorentino
+                        <li> <i class="fa-solid fa-check" style="color: #ffffff;"></i><strong>0 € de frais</strong> d’entrée /arbitrage</li>
+                        <li> <i class="fa-solid fa-check" style="color: #ffffff;"></i> Une gestion par l'assureur sur <strong>conseils de Marc Fiorentino</strong><br>
                             et de son comité d'investissement</li>
-                        <li>+ de 700 supports accessibles</li>
+                        <li> <i class="fa-solid fa-check" style="color: #ffffff;"></i><strong>+ de 700 supports</strong> accessibles</li>
                         <li>
-                            Le 1er contrat d'assurance vie qui permet de récupérer instantanément
+                            <i class="fa-solid fa-check" style="color: #ffffff;"></i> Le 1er contrat d'assurance vie qui permet de<strong>récupérer instantanément</strong> <br>
                             une partie de son épargneé</li>
                     </ul>
                 </div>
+
+                <div class="buttons-content">
+                    <button class="btn-orange-content">Simulation gratuite &nbsp;  <i class="fa-solid fa-calculator" style="color: #ffffff;"></i></button>
+                    <button class="btn-blanc-content">En savoir plus &nbsp;  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+                </div>
+    </div>
+    <!-- block js -->
+    <div id="product-list"  class="product-list-container"></div>
+     </section>
+        <!-- des news -->
+     <section>
+        <div class="container">
+            <div class="container-investir">
+                <img src="./asstes/images/bpifrance-entreprises-avenir.png" alt="">
+                <div class="content-text">
+                    <h2>Vous voulez investir dans</h2>
+                    <span>des entreprises non cotées</span>
+                    <p class="sous-text">Françaises et européennes ?</p>
+              
+                  <p>Optez pour le <strong>fonds BPIFrance</strong>,<br>
+                    la Banque publique d'investissement !</p>
+                <button class="btn-decouvre">Je décourve</button>
+            </div>
+        </div>
+        <div class="container-news">
+            <img src="./asstes/images/image-news_1.png" alt="">
+            <div class="content-text-news">
+                <h2>Inscrivez-vous à la Newsletter de Marc Fiorentino</h2>
+                <p>Plus de 400 000 lecteurs</p>
+                <p>Lire la newsletter</p>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="submit" >
+                </form>                
+            </div>
+        </div>
+
+     </section>
+    <!-- appliaction mobile -->
+     <section class="app">
+        <div class="container-app">
+            <div class="container-app-infos">
+                    <h2>Meilleurtaux Placement<br>
+                        dans votre poche</h2>
+                    <p>L'APPLICATION GAGNANTE POUR VOTRE ARGENT !</p>
+                    <p>
+                        Accédez à tous vos contrats, investissez et gérez votre épargne à un seul endroit.
+                        Souscrire, reverser en 2 clics, c’est maintenant possible avec l’app Meilleurtaux Placement.</p>
+                  <button class="btn-telecharge">Télécharger l’app</button>
+            </div>
+        </div>
+        <div class="container-app-img">
+            <img src="./asstes//images//phone-banner.png" alt="phonne">
+            <button class="btn-telecharge">Savoir plus</button>
         </div>
      </section>
+     <!-- pq -->
+     <section class="pq">
+        <h2 class="titre-pp">Pourquoi choisir meilleurtaux Placement ?</h2>
+        <div class="container-pq">
+            <div class="block-pq">
+                <div>
+                    <img src="./asstes/images/cible.svg" alt="cilbe" >
+                    <div class="block-text"> 
+                        <h2>Simplicité & Efficacité</h2>
+                        <p>Accédez aux meilleurs produits d’épargne du marché <br> et au meilleur de la technologie.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./asstes/images/cible.svg" alt="cilbe" >
+                    <div class="block-text">  
+                        <h2>Simplicité & Efficacité</h2>
+                        <p>Accédez aux meilleurs produits d’épargne du marché <br> et au meilleur de la technologie.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./asstes/images/cible.svg" alt="cilbe" >
+                    <div class="block-text">  
+                        <h2>Simplicité & Efficacité</h2>
+                        <p>Accédez aux meilleurs produits d’épargne du marché <br> et au meilleur de la technologie.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./asstes/images/cible.svg" alt="cilbe" >
+                    <div class="block-text"> 
+                        <h2>Simplicité & Efficacité</h2>
+                        <p>Accédez aux meilleurs produits d’épargne du marché <br> et au meilleur de la technologie.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./asstes/images/cible.svg" alt="cilbe" >
+                    <div class="block-text"> 
+                        <h2>Simplicité & Efficacité</h2>
+                        <p>Accédez aux meilleurs produits d’épargne du marché <br> et au meilleur de la technologie.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./asstes/images/cible.svg" alt="cilbe" >
+                    <div class="block-text"> 
+                        <h2>Simplicité & Efficacité</h2>
+                        <p>Accédez aux meilleurs produits d’épargne du marché <br> et au meilleur de la technologie.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="avis">
+                <div class="block-avis">
+                    <ul>
+                        <li><span><strong> 25 ans</strong> </span> 
+                            <span>d’expertise</span> 
+                        </li>
+                        <li> <span><strong>55 000</strong> </span> 
+                            <span> Clients</span> 
+                        </li>
+                        <li> 
+                            <span><strong>3,3 Mds €</strong></span> 
+                        <span>d’encours</span></li>
 
- 
-   
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+     </section>
+    <!-- 7 agance --> 
+    <section>
+        <h2 class="titre-pp">Présent dans toute la France</h2>
+        <div class="app"> 
+            <div class="container-app">
+                <div class="container-app-infos">
+                        <h2>7 agences partout en France</h2>
+                        <p>Nos agences sont disponibles pour vous recevoir
+                            sur rendez-vous.</p>
+                      <button class="btn-telecharge">Découvrir nos agences</button>
+                </div>
+            </div>
+            <div class="container-agance-img">
+                <img src="./asstes//images//phone-banner.png" alt="phonne">
+            </div>
+        </div>     
+    </section>
+       <!-- 7 projets --> 
+    <section class="projets"> 
+        <h2 class="titre-pp">Des produits d’épargne pour tous vos projets
+            </h2>
+        <p class="sous-titre">Moins de frais pour plus de performance</p>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="./asstes/images/assurance-habitation-resiliee-091832.jpg" alt="Image 1">
+                <p>Assurance Vie</p>
+            </div>
+            <div class="flex-item">
+                <img src="./asstes/images/assurance-habitation-resiliee-091832.jpg" alt="Image 1">
+                <p>Text 1</p>
+            </div>
+            <div class="flex-item">
+                <img src="./asstes/images/assurance-habitation-resiliee-091832.jpg" alt="Image 1">
+                <p>Text 1</p>
+            </div>
+            <div class="flex-item">
+                <img src="./asstes/images/assurance-habitation-resiliee-091832.jpg" alt="Image 1">
+                <p>Text 1</p>
+            </div>
+            <div class="flex-item">
+                <img src="./asstes/images/assurance-habitation-resiliee-091832.jpg" alt="Image 1">
+                <p>Text 1</p>
+            </div>
+          </div>
+    
+
+    </section>
+     
+      
+
+
+
+    <!--expertise --> 
+    <section>
+        <div class="app"> 
+            <div class="container-app">
+                <div class="container-expertise-infos">
+                        <h2 class="titre-pp">Choisissez des contrats régulièrement récompensése</h2>
+                        <p class="sous-text">Ces distinctions ont été attribuées par les journalistes <br> des magazines/journaux cités en fonction de leurs propres critères d’analyse.</p>
+                </div>
+            </div>
+            <div class="container-agance-img">
+                <img src="./asstes//images//phone-banner.png" alt="phonne">
+            </div>
+        </div>     
+    </section>
+
+    <!--partenaires-->
+    <section class="partenaires">
+        <div>
+            <h2 class="titre-pp">Nos organismes de régulation</h2>
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+            <swiper-slide>
+              <img src="./asstes/images/groupe-apicil.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./asstes/images/groupe-apicil.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./asstes/images/groupe-apicil.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./asstes/images/groupe-apicil.jpg" />
+            </swiper-slide>
+          </swiper-container>
+
+        </div>
+        <div>
+           <h2 class="titre-pp">Nos principaux partenaires</h2>
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+            slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+            coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+            <swiper-slide>
+              <img src="./asstes/images/generali.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="./asstes/images/generali.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="./asstes/images/generali.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="./asstes/images/generali.jpg" />
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        
+    </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>

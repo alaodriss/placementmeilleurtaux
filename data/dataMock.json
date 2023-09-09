@@ -1,0 +1,54 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "icon": "../asstes/images/assurance.svg",
+      "text": "Assurance Vie",
+      "description": "Découvrez nos contrats sans frais d'entrée"
+    },
+    {
+      "id": 2,
+      "icon": "../asstes/images/assurance.svg",
+      "text": "SCPI",
+      "description": "Accédez à l'immobilier professionnel dès 500 €"
+    },
+    {
+      "id": 3,
+      "icon": "../asstes/images/assurance.svg",
+      "text": "Retraite - PER",
+      "description": "Plus de retraite et moins d'impôts avec nos PER sans frais d'entrée"
+    },
+    {
+      "id": 4,
+      "icon": "../asstes/images/assurance.svg",
+      "text": "Défiscalisation",
+      "description": "Investissez dans l'économie réelle en réduisant votre impôt"
+    }
+  ],
+  "produits2": [
+    {
+      "id": 1,
+      "icon": "../asstes/images/cible.svg",
+      "text": "Simplicité & Efficacité",
+      "description": "Accédez aux meilleurs produits d’épargne du marché et au meilleur de la technologie."
+    },
+    {
+      "id": 2,
+      "icon": "../asstes/images/cible.svg",
+      "text": "Simplicité & Efficacité",
+      "description": "Accédez aux meilleurs produits d’épargne du marché et au meilleur de la technologie."
+    },
+    {
+      "id": 3,
+      "icon": "../asstes/images/cible.svg",
+      "text": "Simplicité & Efficacité",
+      "description": "Accédez aux meilleurs produits d’épargne du marché et au meilleur de la technologie."
+    },
+    {
+      "id": 4,
+      "icon": "../asstes/images/cible.svg",
+      "text": "Simplicité & Efficacité",
+      "description": "Accédez aux meilleurs produits d’épargne du marché et au meilleur de la technologie."
+    }
+  ]
+}
