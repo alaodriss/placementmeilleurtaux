@@ -52,7 +52,7 @@
 
 .top-section{
     position: relative;
-    background-image: url('/asstes/images/img1.png'); /* Remplacez 'chemin/vers/mon-image.jpg' par le chemin de votre image */
+    background-image: url('/assets/images/img1.png'); /* Remplacez 'chemin/vers/mon-image.jpg' par le chemin de votre image */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la section */
     background-position: center; /* Centre l'image horizontalement et verticalement */
     height: 620px; /* Définissez la hauteur de la section selon vos besoins */
@@ -422,4 +422,43 @@ input[type="submit"] {
   .container-expertise-infos > p{
     margin-left: 2%;
     font-size: 12px;
+  }
+
+
+
+
+
+  .populaires{
+    flex:1;
+    border-radius: 12px; 
+    padding:30px;
+  }
+  .populaires-titre{
+    font-family: raleway-b;
+  }
+  .populaires-titre, .topline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .populaires-img {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 120px;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    
+  }
+  
+
+  
+  .bloc-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée trois colonnes égales */
+    grid-gap: 20px; 
+  }
+  .line{
+    display: flex;
   }
